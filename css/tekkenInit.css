@@ -1,0 +1,17 @@
+body{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-image: url(../img/tekken-init.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+/*
+.picture-init img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}*/
+
