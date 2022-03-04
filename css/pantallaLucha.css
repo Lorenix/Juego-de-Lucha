@@ -9,7 +9,23 @@ body{
     width: 1100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
+}
+
+.title{
+    height: 265px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: xxx-large;
+   
 }
 
 .picture2{
