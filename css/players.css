@@ -13,9 +13,17 @@ body{
 
 }
 
+.container{
+    height: 1200px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title{
-    height: 265px;
-    width: 300px;
+    height: 250px;
+    width: 755px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +32,7 @@ body{
 h1, p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
-    font-size: xxx-large;
+    font-size: 50px;
    
 }
 
@@ -47,14 +55,16 @@ img{
 }
 
 .box{
-    height: 430px;
-    width: 692px;
+    height: 700px;
+    width: 802px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .selectPlayer{
+    height: 668px;
+    width: 430px;
     position: absolute;
     display: flex;
     justify-items: flex-start;
@@ -84,6 +94,24 @@ ul li a{
     padding: 98px 58px;
     display: block;
 }
+
+#jugadoresSeleccionados{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    
+}
+
+#personajeN{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+
 /*
 li .player1{
 
