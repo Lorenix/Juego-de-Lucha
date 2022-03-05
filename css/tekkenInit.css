@@ -1,17 +1,48 @@
 body{
-    height: auto;
-    width: auto;
-    display: flex;
-    background-image: url(../img/tekken-init.jpg);
+    background-image: url(../img/init.jpg);
     background-repeat: no-repeat;
-    background: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: auto;
+    height: 890px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-/*
-.picture-init img{
-    height: 100%;
-    width: 100%;
+.clickStart{
+    height: 900px;
+    width: 880px;
     display: flex;
-    
-}*/
+    flex-direction: column;
+    align-items: center;
+}
 
+ul{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li{
+    border: 25px solid rgb(95, 1, 149);
+    border-radius: 50%;
+    margin: 0px 44px 60px 0;
+}
+
+ul, li, a{
+    height: 825px;
+    width: 820px;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: rgb(95, 1, 149);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

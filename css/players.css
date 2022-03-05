@@ -97,16 +97,22 @@ ul li a{
 
 #jugadoresSeleccionados{
     width: 800px;
-    height: 500px;
+    height: 300px;
     display: flex;
-    
+    align-items: flex-start;
+    justify-content: space-between;
+
 }
 
-#personajeN{
-    height: 450px;
-    width: 400px;
-    display: flex;
-    justify-content: flex-end;
+.luchadores{
+    height: 250px;
+    width: 900px;
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-around;
+}
+
+#luchadorSeleccionado img{
     
 
 }
