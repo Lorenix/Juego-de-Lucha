@@ -84,7 +84,7 @@ ul li{
     width: 200px;
     background-color: pink;*/
     list-style: none;
-    border: 4px solid #24e62a;
+    border: 4px solid #1d3d1e;
     border-radius: 5px;
     margin: 4px;
     padding: 6px;
@@ -111,11 +111,11 @@ ul li a{
     align-items: flex-start; 
     justify-content: space-around;
 }
-
+/*
 #luchadorSeleccionado img{
     
 
-}
+}*/
 
 
 /*

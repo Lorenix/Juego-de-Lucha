@@ -1,19 +1,16 @@
-/////Selección 2 jugadores
-const selectPlayer = [player1, player2, player3, player4, player5, player6];
-
-const selectPlayer = (a, b) => {
-    selectPlayer = onclick.div(a, b) 
-
-    if (player1 + player2) {
-        return pantalla2
-        } else {  
-
-    }
-)
+//Color de seleccion personaje
+window.onload = selectPlayer;
+function selectPlayer () {
+    document.getElementsByClassName("playerSelect").onclick = seleccionPlayerN(); 
 }
 
+ function seleccionPlayerN () { 
+    let i = document.getElementsByClassName("playerSelect").style;
+    i = border = "6px solid white";
+    }
 
-const selectPlayer = onclick.div(player1)
+
+
 
 
 
