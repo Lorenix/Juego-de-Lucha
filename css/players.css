@@ -98,48 +98,21 @@ ul li a{
 #jugadoresSeleccionados{
     width: 800px;
     height: 300px;
-    display: flex;
     align-items: flex-start;
     justify-content: space-between;
 
 }
 
-.luchadores{
+#luchadores{
     height: 250px;
     width: 900px;
-    display: flex; 
+    display: none; 
     align-items: flex-start; 
     justify-content: space-around;
 }
+
 /*
 #luchadorSeleccionado img{
     
 
 }*/
-
-
-/*
-li .player1{
-
-}
-
-li .player2{
-
-}
-
-li .player3{
-
-}
-
-li .player4{
-
-}
-
-li .player5{
-
-}
-
-li .player6{
-
-}
-*/
