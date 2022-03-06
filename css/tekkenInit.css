@@ -5,16 +5,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-position: center;
 }
 
+
 .clickStart{
-    height: 825px;
+    height: 900px;
     width: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 ul{ 
     display: flex;
@@ -22,11 +24,13 @@ ul{
     align-items: center;
 }
 
+
 ul li{
     border: 25px solid rgb(95, 1, 149);
     border-radius: 50%;
     margin: 0 40px 80px 0;
 }
+
 
 ul, li, a{
     height: 850px;
@@ -39,5 +43,4 @@ ul, li, a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }

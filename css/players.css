@@ -10,9 +10,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+/*Contenedor principal*/
 .container{
     height: 1200px;
     width: 1100px;
@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
+/*Título*/
 .title{
     height: 250px;
     width: 755px;
@@ -35,7 +35,7 @@ h1, p {
     font-size: 50px;
    
 }
-
+/*Panel-Linkeado-Luchadores*/
 .picture2{
     width: 711px;
     height: 465px;    
@@ -61,7 +61,7 @@ img{
     justify-content: center;
     align-items: flex-end;
 }
-
+/*Selección directa: Link-luchador*/
 .selectPlayer{
     height: 668px;
     width: 430px;
@@ -72,22 +72,18 @@ img{
 }
 
 ul{
-    margin: 2px;
-    padding: 4px;
+    margin: 0 0 10px 0;
+    padding: 0 20px 10px 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 ul li{
-    /*height: 200px;
-    width: 200px;
-    background-color: pink;*/
     list-style: none;
-    border: 4px solid #1d3d1e;
     border-radius: 5px;
-    margin: 4px;
-    padding: 6px;
+    padding: 10px;
 }
 
 ul li a{
@@ -95,9 +91,15 @@ ul li a{
     display: block;
 }
 
+a:hover{
+    border: 6px solid rgb(237, 240, 51);
+    border-radius: 5px;
+    padding: 110px 61px 110px 60px;   
+}
+/*Contenedor salida IMG luchador seleccionado*/
 #jugadoresSeleccionados{
     width: 800px;
-    height: 300px;
+    height: 500px;
     align-items: flex-start;
     justify-content: space-between;
 
@@ -111,8 +113,3 @@ ul li a{
     justify-content: space-around;
 }
 
-/*
-#luchadorSeleccionado img{
-    
-
-}*/
