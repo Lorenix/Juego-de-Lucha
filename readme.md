@@ -2,7 +2,7 @@
 ***
 Realizar un Juego de Lucha: con Html5, CSS3 y JavaScript, adjuntando readme y repositorio correspondiente en GitHubs además de subir proyecto a producción.
 
-### 🥊 [ Juego de Lucha ] 🤼‍♂️ [Click:  abrir.](web.githubPages.com) 🖱
+### 🥊 [ Juego de Lucha ] 🤼‍♂️ [Click:  abrir.](https://lorenix.github.io/Juego-de-Lucha/) 🖱
 ## Tecnologías 💻
 ***
 Una lista de las tecnologías utilizadas en el proyecto:
